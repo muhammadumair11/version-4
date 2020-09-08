@@ -17,9 +17,11 @@ a:hover {
 .navbar {
     padding: 1rem 3rem 1rem;
     font-size: 1.1em;
+    background-color: #00404d;
 }
 .navbar button {
-    background-color: #727374;
+    background-color: #015668;
+   
 }
 .nav-link
 {
@@ -60,6 +62,7 @@ a:hover {
     color: white;
     padding: 20px 20px 20px 200px;
 }
+
 
 .home-text hr {
     border: 1px solid white;

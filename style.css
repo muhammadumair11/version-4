@@ -1,14 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    
-    
+
+
 }
 
 /* *********navbar******* */
 #header {
     background-color: #015668;
 }
+
 .navbar {
     padding: 1rem 2rem 0;
     font-size: 1.1em;
@@ -17,8 +18,9 @@ body {
 /* **********Home************* */
 #home {
     background-color: #015668;
-    
-    }
+
+}
+
 .home-data {
     display: grid;
     align-content: center;
@@ -45,34 +47,29 @@ body {
     padding: 20px 20px 20px 200px;
 }
 
-@media (max-width: 1201px)
-{
+@media (max-width: 1201px) {
     .home-data img {
         left: 10%;
     }
 }
 
 
-@media (max-width: 995px) 
-{
+@media (max-width: 995px) {
     .home-data {
         position: static;
     }
+
     .home-data img {
         width: 15rem;
         position: static;
         margin-top: 2%;
     }
+
     .home-text {
         width: 70%;
-        padding: 2% ;
+        padding: 2%;
         margin-top: 20px;
         text-align: center;
-        
+
     }
 }
-
-
-
-
- 

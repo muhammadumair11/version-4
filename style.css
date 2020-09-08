@@ -4,6 +4,10 @@ body {
 
 
 }
+a:hover {
+    color: rgb(126, 126, 126);
+}
+
 
 /* *********navbar******* */
 #header {
@@ -11,13 +15,22 @@ body {
 }
 
 .navbar {
-    padding: 1rem 2rem 0;
+    padding: 1rem 3rem 1rem;
     font-size: 1.1em;
 }
+.navbar button {
+    background-color: #727374;
+}
+.nav-link
+{
+    color: white;
+}
+
 
 /* **********Home************* */
 #home {
     background-color: #015668;
+    padding-top: 5rem;
 
 }
 
@@ -32,8 +45,8 @@ body {
     position: absolute;
     width: 15rem;
     height: auto;
-    left: 16%;
-    top: 100px;
+    left: 15%;
+    top: 105px;
 }
 
 .home-text {
@@ -42,15 +55,21 @@ body {
     margin-top: 120px;
     margin-bottom: 8rem;
     border-radius: 15px;
-    background-color: #039ab8;
+    border: 2px solid #039ab8;
+    background-color: #067991;
     color: white;
     padding: 20px 20px 20px 200px;
 }
 
+.home-text hr {
+    border: 1px solid white;
+}
+
 @media (max-width: 1201px) {
     .home-data img {
-        left: 10%;
+        left: 8%;
     }
+    
 }
 
 
@@ -62,14 +81,20 @@ body {
     .home-data img {
         width: 15rem;
         position: static;
-        margin-top: 2%;
+        margin-top: 7%;
     }
 
     .home-text {
         width: 70%;
-        padding: 2%;
+        padding: 1rem 2rem 10px;
         margin-top: 20px;
         text-align: center;
-
     }
+}
+
+
+/*********About me *********/
+
+#about-me {
+    line-height: 1.6;
 }

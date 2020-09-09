@@ -68,7 +68,7 @@ a:hover {
     border: 1px solid white;
 }
 
-@media (max-width: 1201px) {
+@media (max-width: 1199px) {
     .home-data img {
         left: 8%;
     }

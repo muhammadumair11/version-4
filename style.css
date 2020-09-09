@@ -100,4 +100,32 @@ a:hover {
 
 #about-me {
     line-height: 1.6;
+    color: white;
+    background-color: #DC3545;
 }
+
+.about-text {
+    background-color: #fd3549;
+    border-radius: 15px;
+    border: 1px solid #fa6e7c;
+}
+
+.top-text {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+
+#about-me hr {
+    border: none;
+    border-top: 10px dotted #ff5264;
+    width: 9%;
+}
+@media (max-width: 600px) {
+    .top-text {
+        width: 70%;
+        text-align: left;
+    }
+    
+}
+

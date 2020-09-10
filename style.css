@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-
+    line-height: 1.6;
+    color: white;
 
 }
 a:hover {
@@ -99,8 +100,7 @@ a:hover {
 /*********About me *********/
 
 #about-me {
-    line-height: 1.6;
-    color: white;
+    
     background-color: #DC3545;
 }
 
@@ -129,3 +129,86 @@ a:hover {
     
 }
 
+/* ******My work******** */
+
+#my-work {
+    background-color: #1d2d50;
+}
+
+/* image animation */
+.container {
+    position: relative;
+    padding: 0;
+   
+}
+
+.image {
+    border-radius: 15px;
+    opacity: 1;
+    display: block;
+    
+    
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    color: white;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+.text a {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+/* ****end animation*** */
+
+.work-text {
+    background-color: #3b4f7a;
+    border-radius: 15px;
+    border: 1px solid #527fe0;
+}
+
+/* **scroll bar  */
+.scrollbar {
+    
+    float: left;
+    overflow-y: scroll;
+}
+
+.scrollbar-primary::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scrollbar-primary::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #4285F4;
+}
+
+.scrollbar-primary {
+    scrollbar-color: #4285F4 #F5F5F5;
+}
+
+
+@media (max-width: 1095px) and (min-width: 766px) {
+    .work-text {
+        height: 30rem;
+    }
+}

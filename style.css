@@ -5,10 +5,23 @@ body {
     color: white;
 
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 a:hover {
+    text-decoration: none;
     color: rgb(126, 126, 126);
 }
-
+.navbar, .about-text, .scrollbar, image {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+.name {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+}
+.home-text, .about-text, .image, .work-text, .form-cus {
+     border-radius: 15px !important;
+ }
 
 /* *********navbar******* */
 #header {
@@ -57,7 +70,6 @@ a:hover {
     width: 40rem;
     margin-top: 120px;
     margin-bottom: 8rem;
-    border-radius: 15px;
     border: 2px solid #039ab8;
     background-color: #067991;
     color: white;
@@ -106,7 +118,6 @@ a:hover {
 
 .about-text {
     background-color: #fd3549;
-    border-radius: 15px;
     border: 1px solid #fa6e7c;
 }
 
@@ -143,7 +154,6 @@ a:hover {
 }
 
 .image {
-    border-radius: 15px;
     opacity: 1;
     display: block;
     
@@ -181,7 +191,6 @@ a:hover {
 
 .work-text {
     background-color: #3b4f7a;
-    border-radius: 15px;
     border: 1px solid #527fe0;
 }
 
@@ -207,8 +216,57 @@ a:hover {
 }
 
 
-@media (max-width: 1095px) and (min-width: 766px) {
+@media (max-width: 1095px) and (min-width: 768px) {
     .work-text {
         height: 30rem;
     }
+}
+
+
+/***************Contact Me *********** */
+
+#contact-me {
+    background-color: #1b262c;
+    padding-bottom: 3rem;
+}
+
+
+#contact-me form {
+    padding: 1rem;
+}
+
+.form-cus {
+    margin: 0 auto;
+    padding: 2rem;
+    width: 70%;
+    background-color: #344b57;
+    text-align: center;
+}
+.name {
+    margin: 0 0 0.6rem;
+}
+
+.btn {
+    background: #ffffff;
+    border-radius: 11px;
+    box-shadow: 0 1px #444444;
+    color: #1B262C;
+    text-align: center;
+    font-size: larger;
+    padding: 0.5rem 2rem;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* *******footer****** */
+
+#footer {
+    background-color: #00404d;
+}
+.footer-link a{
+    padding: 0 1rem;
+    margin: 0 0 10px;
 }
